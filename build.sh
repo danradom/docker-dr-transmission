@@ -4,4 +4,4 @@
 #
 
 
-docker build . -t dr-tr
+docker build . -t dr-transmission
