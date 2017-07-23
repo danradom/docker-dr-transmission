@@ -3,7 +3,7 @@
 # container stop script
 #
 
-container="dr-tr"
+container="dr-transmission"
 
 docker stop $container > /dev/null 2>&1
 
