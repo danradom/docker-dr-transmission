@@ -1,0 +1,31 @@
+[Save]
+; directory where to save files
+directory = $PWD
+
+; save each selected magnet link in a .magnet file
+magnets = false
+
+; save each selected torrent in a .torrent file
+torrents = false
+
+[LocalDB]
+; use a local copy of the pirate bay database
+enabled = false
+
+[Misc]
+; specify a custom command for opening the magnet
+; ex. myprogram --open %s
+; %s represent the magnet uri
+; openCommand = transmission-remote --auth "transmission:jAWRa*ust!7U_rUw" --no-start-paused --add %s
+openCommand = transmission-remote --no-start-paused --add %s
+
+; open magnets with transmission-remote client
+transmission = false
+
+; use colored output
+colors = true
+
+; the pirate bay mirror(s) to use:
+; one or more space separated URLs
+; mirror = http://ahoy.one http://thepiratebay.red http://thepiratebay.org http://pirateproxy.cat
+mirror = http://thepiratebay.red http://thepiratebay.org http://pirateproxy.cat http://ahoy.one
