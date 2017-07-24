@@ -14,5 +14,5 @@ docker run --rm -it -d \
 	-e "webui=no" \
 	-v /path/to/dr-transmission/:/data \
 	--name dr-transmission \
-	-p 9091:9019 \
+	-p 9091:9091 \
 	dr-transmission
